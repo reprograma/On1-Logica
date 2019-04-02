@@ -1,7 +1,9 @@
 // Estrutura for
 
 // Faça um algoritmo que mostre os números de 0 até 100 
-[Substitua este texto por sua resposta]
+for (let i=0; i<=100; i=i++){ 
+    console.log(i)    
+}
 
 // Agora faça uma versão que conta de 0 até 100 de 5 em 5 números
 [Substitua este texto por sua resposta]

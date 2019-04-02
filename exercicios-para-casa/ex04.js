@@ -11,16 +11,32 @@
 
 
 // true e true 
-[Substitua este texto por sua resposta]
+var numero = 3;
+        var condicao1 = (numero == 3); 
+        console.log ('Condicao 1:',condicao1) 
+        var condicao2 = numero >= 3;
+        console.log ('Condicao 2:',condicao2) 
+VM1145:3 Condicao 1: true
+VM1145:5 Condicao 2: true
 
 // true e false 
-[Substitua este texto por sua resposta]
+var numero = 3;
+        var condicao1 = (numero == 3); 
+        console.log ('Condicao 1:',condicao1) 
+        var condicao2 = numero > 3;
+        console.log ('Condicao 2:',condicao2)
+VM1148:3 Condicao 1: true
+VM1148:5 Condicao 2: false
 
 // false e true
 [Substitua este texto por sua resposta]
 
 // false e false 
-[Substitua este texto por sua resposta]
+var numero = 3;
+        var condicao1 = (numero == 5); 
+        console.log ('Condicao 1:',condicao1) 
+        var condicao2 = numero > 3;
+        console.log ('Condicao 2:',condicao2) 
 
 //!false e true
 [Substitua este texto por sua resposta]
