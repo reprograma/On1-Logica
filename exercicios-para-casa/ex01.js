@@ -12,25 +12,25 @@
 // Tá com dúvidas sobre como responder ao exercício? Leia o arquivo _Intrucoes.md
 
 // Crie/declare uma variável para guardar o nome do curso que você está fazendo na reprograma (sem valor).
-[Substitua este texto por sua resposta]
+[var cursoReprograma]
 
 // Mostre o valor atual de sua variável no console 
-[Substitua este texto por sua resposta]
+[console.log('Front-End Online')]
 
 // Atribua um valor à variável que você acabou de criar
-[Substitua este texto por sua resposta]
+[cursoReprograma = 'Front-end Online']
 
 // Agora mostre novamente o valor atual de sua variável no console 
-[Substitua este texto por sua resposta]
+[console.log('Front-End Online')]
 
 // Crie/declare uma variável para guardar uma nota de 1 a 10 (sem valor).
-[Substitua este texto por sua resposta]
+[var nota1]
 
 // Nesta variável atribua o valor da nota que você daria (hoje) para os seus conhecimentos de lógica (seja realista sem ser cruel com você mesma, lembre que você está começando)
-[Substitua este texto por sua resposta]
+[nota1 = 7]
 
 // Crie/declare uma nova variável chamada 'soma' e atribua o resultado da soma de dois valores nesta variável (tente fazer tudo em uma linha) 
-[Substitua este texto por sua resposta]
+[var soma = ]
 
 // Incremente (some mais 1) à sua variável 'soma' usando 3 formas diferentes (dica: pesquise operadores unários) 
 [Substitua este texto por sua resposta]
