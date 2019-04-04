@@ -7,4 +7,23 @@
 //    return 2+5
 // }
 
+
+
+var variavel1 = 5;
+var variavel2 = 10;
+function multiplica{
+
+    return variavel1*variavel2;
+
+}
+
+function somaRandom{
+
+    return Math.round(Math.random()*10)+variavel1+variavel2;
+}
+
+funcion divideParse{
+    return parseInt(variavel1/3);
+}
+
 // PS.Não frita com esse exercício...vamos falar sobre isso na próxima semana
