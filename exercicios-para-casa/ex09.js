@@ -6,5 +6,34 @@
 // function doisMaisCinco(){
 //    return 2+5
 // }
-
 // PS.Não frita com esse exercício...vamos falar sobre isso na próxima semana
+
+function jogarParOuImpar(){
+    var recebe = prompt('Escolha "P" para par ou "I" para ímpar')
+recebe = recebe.toUpperCase()
+
+var numero = Math.floor(Math.random()*10)+1
+console.log(numero)
+ 
+var numjogador = prompt('Digite um número')
+
+var soma = numjogador + numero
+
+var verifica = soma%2
+
+if (verifica != 0){
+    verifica = 'I'
+}
+else{
+    verifica = 'P'
+}
+
+if( verifica == recebe){ alert('Você ganhou')
+
+}
+else {
+    alert('Você perdeu')
+}
+}
+
+jogarParOuImpar()

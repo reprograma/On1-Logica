@@ -10,55 +10,72 @@
 //Tranforme as frases abaixo em operações, rode no seu console e acrescente a resposta que foi obtida 
 
 // 5 é maior que 2
-[Substitua este texto por sua resposta]
+console.log(5>2)
+true
 
 // 7 é maior ou igual a 8
-[Substitua este texto por sua resposta]
+console.log ( 7 >= 8)
+false
 
 // 5 é menor que 18 dividido por 3
-[Substitua este texto por sua resposta]
+console.log( 5 < (18/3) )
+true
 
 // Nove é menor ou igual a 3 vezes 3
-[Substitua este texto por sua resposta]
+console.log(9 <= (3*3))
+true
 
 // 5+2 é igual a 11-4 
-[Substitua este texto por sua resposta]
-
+console.log ((5+2) == (11-4))
+true
 // undefined é igual a null
-[Substitua este texto por sua resposta]
+undefined == null
+true
 
 // '2'(string) é igual a 2
-[Substitua este texto por sua resposta] 
+console.log ('2' == 2)
+true
 
 // '2'(string) é estritamente igual a 2
-[Substitua este texto por sua resposta]
+console.log ('2' === 2)
+false
 
 // 0 é igual a -0
-[Substitua este texto por sua resposta]
+console.log(0 == -0);
+true
 
 // 'banana' é maior que 'Banana'
-[Substitua este texto por sua resposta]
+console.log( 'banana' > 'Banana')
+true
 
 // 'alice' é menor que 'beatriz'
-[Substitua este texto por sua resposta]
+console.log('alice' < 'beatriz')
+true
 
 // 'alice' é menor que 'beatriz'
-[Substitua este texto por sua resposta]
+console.log('alice' < 'beatriz')
+true
 
 // 'alice' é diferente de 'Alice'
-[Substitua este texto por sua resposta]
+console.log('alice' != 'beatriz')
+true
 
 // '25' é estritamente diferente de 25
-[Substitua este texto por sua resposta]
+console.log('25'!== 25)
+true
 
 // true é igual a 'true'
-[Substitua este texto por sua resposta]
+console.log(true == 'true')
+false
 
 // false é diferente de 0
-[Substitua este texto por sua resposta]
+console.log(false != 0)
+false
 
 // Não true é igual é false
-[Substitua este texto por sua resposta]
+console.log(!true == false)
+true
 
 // !0 é igual a !1
-[Substitua este texto por sua resposta]
+console.log(!0 == !1)
+false

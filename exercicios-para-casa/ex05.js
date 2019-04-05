@@ -6,4 +6,30 @@
 // Dicas: 
 //  - Use a função Math.random() para gerar um número inteiro aleatório
 //  - Use o prompt() para coletar o número informado pelo usuário
-[Substitua este texto por sua resposta]
+
+
+var recebe = prompt('Escolha "P" para par ou "I" para ímpar')
+recebe = recebe.toUpperCase()
+
+var numero = Math.floor(Math.random()*10)+1
+console.log(numero)
+ 
+var numjogador = prompt('Digite um número')
+
+var soma = numjogador + numero
+
+var verifica = soma%2
+
+if (verifica != 0){
+    verifica = 'I'
+}
+else{
+    verifica = 'P'
+}
+
+if( verifica == recebe){ alert('Você ganhou')
+
+}
+else {
+    alert('Você perdeu')
+}
