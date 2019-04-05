@@ -6,4 +6,18 @@
 // Dicas: 
 //  - Use a função Math.random() para gerar um número inteiro aleatório
 //  - Use o prompt() para coletar o número informado pelo usuário
-[Substitua este texto por sua resposta]
+
+var chuteComputador = Math.ceil(Math.random()*10);
+var chuteUsuario = prompt ('Insira aqui seu número de 0 a 10 e escolha se quer par ou ímpar= ', chuteUsuario); //pesquisar como limitar o usuário escrever só até 10
+
+if (chuteUsuario%2 == 0 + chuteComputador%2 == 1) {
+    console.log('Par!')
+}
+
+else  {
+    console.log('Ímpar!')
+}
+
+console.log('O número do computador foi', chuteComputador) 
+
+//não tá 100%, mas acho que vou pegar a lógica melhor depois.

@@ -10,55 +10,55 @@
 //Tranforme as frases abaixo em operações, rode no seu console e acrescente a resposta que foi obtida 
 
 // 5 é maior que 2
-[Substitua este texto por sua resposta]
+true
 
 // 7 é maior ou igual a 8
-[Substitua este texto por sua resposta]
+false
 
 // 5 é menor que 18 dividido por 3
-[Substitua este texto por sua resposta]
+true
 
 // Nove é menor ou igual a 3 vezes 3
-[Substitua este texto por sua resposta]
+true
 
 // 5+2 é igual a 11-4 
-[Substitua este texto por sua resposta]
+true
 
 // undefined é igual a null
-[Substitua este texto por sua resposta]
+false
 
 // '2'(string) é igual a 2
-[Substitua este texto por sua resposta] 
+true
 
 // '2'(string) é estritamente igual a 2
-[Substitua este texto por sua resposta]
+false
 
 // 0 é igual a -0
-[Substitua este texto por sua resposta]
+false
 
 // 'banana' é maior que 'Banana'
-[Substitua este texto por sua resposta]
+false
 
 // 'alice' é menor que 'beatriz'
-[Substitua este texto por sua resposta]
+true
 
 // 'alice' é menor que 'beatriz'
-[Substitua este texto por sua resposta]
+true
 
 // 'alice' é diferente de 'Alice'
-[Substitua este texto por sua resposta]
+false
 
 // '25' é estritamente diferente de 25
-[Substitua este texto por sua resposta]
+true
 
 // true é igual a 'true'
-[Substitua este texto por sua resposta]
+false
 
 // false é diferente de 0
-[Substitua este texto por sua resposta]
+true
 
 // Não true é igual é false
-[Substitua este texto por sua resposta]
+true
 
 // !0 é igual a !1
-[Substitua este texto por sua resposta]
+true

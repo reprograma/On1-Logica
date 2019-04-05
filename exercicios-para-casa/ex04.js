@@ -11,39 +11,39 @@
 
 
 // true e true 
-[Substitua este texto por sua resposta]
+true
 
 // true e false 
-[Substitua este texto por sua resposta]
+false
 
 // false e true
-[Substitua este texto por sua resposta]
+false
 
 // false e false 
-[Substitua este texto por sua resposta]
+false
 
 //!false e true
-[Substitua este texto por sua resposta]
+true
 
 // !true e false 
-[Substitua este texto por sua resposta]
+false
 
 // true ou true
-[Substitua este texto por sua resposta]
+true
 
 // true ou false 
-[Substitua este texto por sua resposta]
+true
 
 // true ou false ou true
-[Substitua este texto por sua resposta]
+true
 
 // !true ou false
-[Substitua este texto por sua resposta]
+false
 
 // !(true ou false) e true
-[Substitua este texto por sua resposta]
+false
 
 // true ou !(false e true)
-[Substitua este texto por sua resposta]
+true
 
 //Deu nó? Vai beber uma água e continue depois
