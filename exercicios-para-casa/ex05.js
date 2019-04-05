@@ -6,4 +6,30 @@
 // Dicas: 
 //  - Use a função Math.random() para gerar um número inteiro aleatório
 //  - Use o prompt() para coletar o número informado pelo usuário
-[Substitua este texto por sua resposta]
+
+// Usuária escolhe par ou ímpar
+let parOuImparUsuaria = prompt ('Escolha par ou ímpar (P/I)');
+console.log(parOuImparUsuaria);
+
+// Usuária escolhe um número
+let numeroUsuaria = parseInt(prompt('Digite um número inteiro'));
+console.log(numeroUsuaria);
+
+// O pc vai gerar um número aleatório
+let numeroPc = Math.round(Math.random()*10);
+console.log(numeroPc);
+
+// Soma os números
+let soma = numeroUsuaria + numeroPc;
+
+// Verifica se a soma é par ou ímpar
+if (parOuImparUsuaria=='P' && soma%2 == 0){
+    console.log('Você ganhou!')
+}else if (parOuImparUsuaria=='I' && soma%2 != 0){
+    console.log('Você ganhou!')
+}
+else{
+    console.log('Você perdeu!')
+}
+
+// Verifica quem ganhou
