@@ -2,76 +2,74 @@
 <!-- Pra rodar basta abrir o arquivo HTML que o script vai rodar -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ex04</title>
 </head>
+
 <body>
- <h1>Testes</h1>
-<script>
-// Brincando com variáveis:
-// a) Crie as seguintes variáveis: nome, formacao, hobby, idade, altura, anoNascimento,jaEstudouLogica, amaGatos
+    <h1>Testes</h1>
+    <script>
+        // Brincando com variáveis:
+        // a) Crie as seguintes variáveis: nome, formacao, hobby, idade, altura, anoNascimento,jaEstudouLogica, amaGatos
+        var nome, formacao, hobby, idade, altura, anoNascimento, jaEstudouLogica, amaGatos // da p declarar tudo junto
+        
+        // b) Atribua valores às variáveis criadas no exercício anterior e mostre seus valores no console
+        nome = 'Vitória'; // Tipo string (sempre entre aspas)
+        formacao = 'Marketing';
+        hobby = 'Fotografia';
+        idade = 18;// Number (sempre dígitos e sem aspas pode ser inteiro, decimal)
+        altura = 1.60;
+        anoNascimento = 2000;
+        jaEstudouLogica = false; // Boolean (true é verdadeiro e false é falso)
+        amaGatos = true;
+        console.log(nome, formacao, hobby, idade, altura, anoNascimento, jaEstudouLogica, amaGatos) // Mostrando as variáveis 
 
-    var nome, formacao, hobby, idade, altura, anoNascimento,jaEstudouLogica, amaGatos // Posso declarar assim tudo junto (fica ruim de ler, mas pra vc saber que podemos fazer assim. Devemos? Melhor não...rsrsrrs)
-
-
-// b) Atribua valores às variáveis criadas no exercício anterior e mostre seus valores no console
-    nome = 'Joseline'; // Tipo string (sempre entre aspas)
-    formacao = 'Desenvolvedora'; 
-    hobby = 'Marcenaria';
-    idade = 35;// Number (sempre dígitos e sem aspas pode ser inteiro, decimal)
-    altura = 1.61;
-    anoNascimento = 1983;
-    jaEstudouLogica = false; // Boolean (true é verdadeiro e false é falso)
-    amaGatos = true;
-    console.log (nome, formacao, hobby, idade, altura, anoNascimento,jaEstudouLogica, amaGatos) // Mostrando as variáveis 
-
-
-    //Outros tipos (null e undefined): 
-    var nulo = null;
-    console.log('Nulo:',nulo) // Mostrar o valor que retorna
-    console.log('tipo nulo',typeof nulo) // Retorna um objeto, cruzes ...depois vemos isso
-    //undefined é um valor específico que aparece quando vc tenta retornar um valor que não foi encontrado ou ainda não atribuído a uma determinada variável
-
-// c) Atribua novos valores (pode ser do mesmo tipo ou não) para as variáveis e mostre-os novamente
-
-    idade = '35';// Agora é uma string
-    hobby = 'Programadora';
-    console.log (nome, formacao, hobby, idade, altura, anoNascimento,jaEstudouLogica, amaGatos) // Observe que os valores foram atualizados
-
-// d) Mostre no console os nomes, os valores e os tipos de valores de cada uma das variáveis
-    // typeof retorna o tipo de um valor qualquer (ex. typeof 2) , ou tipo do valor do que está inserido na variável (ex. typeof nome)
-    console.log('nome',nome,typeof nome)
-    console.log('formacao' ,formacao ,typeof formacao)
-    console.log('hobby' ,hobby ,typeof hobby)
-    console.log('idade' ,idade ,typeof idade)
-    console.log('altura',altura,typeofaltura)  
-    console.log('anoNascimento',anoNascimento,typeof anoNascimento)
-    console.log('jaEstudouLogica',jaEstudouLogica, typeof jaEstudouLogica)  
-    console.log('amaGatos' ,amaGatos , typeofamaGatos)
     
-// e) Faça com que os valores das variáveis sejam inseridos dinamicamente (via prompt)
-    nome = prompt('Informe seu nome ');
-    formacao = prompt('Informe sua formação ');
-    hobby = prompt('Informe seu hobby '); 
-    idade = prompt('Informe sua idade ');  
-    altura = prompt('Informe sua altura '); 
-    anoNascimento = prompt('Informe o ano do seu nascimento'); 
-    jaEstudouLogica = prompt('Informe true caso você já tenha estudado lógica e false caso não tenha'); 
-    amaGatos = prompt('Informe '); 
+        var nulo = null;
+        console.log('Nulo:', nulo) // Mostrar o valor que retorna
+        console.log('tipo nulo', typeof nulo) // Retorna um objeto, cruzes ...depois vemos isso
+        //undefined é um valor específico que aparece quando vc tenta retornar um valor que não foi encontrado ou ainda não atribuído a uma determinada variável
+       
+        // c) Atribua novos valores (pode ser do mesmo tipo ou não) para as variáveis e mostre-os novamente
+        idade = '19';// Agora é uma string
+        hobby = 'Programadora';
+        console.log(nome, formacao, hobby, idade, altura, anoNascimento, jaEstudouLogica, amaGatos) // Observe que os valores foram atualizados
+       
+        // d) Mostre no console os nomes, os valores e os tipos de valores de cada uma das variáveis
+        // typeof retorna o tipo de um valor qualquer (ex. typeof 2) , ou tipo do valor do que está inserido na variável (ex. typeof nome)
+        console.log('nome', nome, typeof nome)
+        console.log('formacao', formacao, typeof formacao)
+        console.log('hobby', hobby, typeof hobby)
+        console.log('idade', idade, typeof idade)
+        console.log('altura', altura, typeof altura)
+        console.log('anoNascimento', anoNascimento, typeof anoNascimento)
+        console.log('jaEstudouLogica', jaEstudouLogica, typeof jaEstudouLogica)
+        console.log('amaGatos', amaGatos, typeof amaGatos)
 
-// f) Corrija os formatos recebidos via prompt
-// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math
+        // e) Faça com que os valores das variáveis sejam inseridos dinamicamente (via prompt)
+        nome = prompt('Informe seu nome ');
+        formacao = prompt('Informe sua formação ');
+        hobby = prompt('Informe seu hobby ');
+        idade = prompt('Informe sua idade ');
+        altura = prompt('Informe sua altura ');
+        anoNascimento = prompt('Informe o ano do seu nascimento');
+        jaEstudouLogica = prompt('Informe true caso você já tenha estudado lógica e false caso não tenha');
+        amaGatos = prompt('Informe se ama gatos, true/false ');
+       
+        // f) Corrija os formatos recebidos via prompt
+        // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math
+        //prompt sempre traz uma string temos que converter os tipos que não forem strings (vamos fazer isso já na entrada) - Não expliquei em aula mas vamos fazer 
+        idade = Number(prompt('Informe sua idade'));
+        altura = Number(prompt('Informe sua altura '));
+        anoNascimento = Number(prompt('Informe o ano do seu nascimento'));
+        jaEstudouLogica = Boolean(prompt('Informe true caso você já tenha estudado lógica e false caso não tenha'));
+        amaGatos = Boolean(prompt('Você ama gatos? true/false ')); 
+    </script>
 
-    //prompt sempre traz uma string temos que converter os tipos que não forem strings (vamos fazer isso já na entrada) - Não expliquei em aula mas vamos fazer 
-    idade = Number(prompt('Informe sua idade'));  
-    altura = Number(prompt('Informe sua altura ')); 
-    anoNascimento =Number(prompt('Informe o ano do seu nascimento')); 
-    jaEstudouLogica = Boolean(prompt('Informe true caso você já tenha estudado lógica e false caso não tenha')); 
-    amaGatos = Boolean(prompt('Você ama gatos? true/false ')); 
-</script>
-    
 </body>
+
 </html>
