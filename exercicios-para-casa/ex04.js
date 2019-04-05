@@ -11,39 +11,39 @@
 
 
 // true e true 
-[Substitua este texto por sua resposta]
+console.log(true&&true) //true
 
 // true e false 
-[Substitua este texto por sua resposta]
+console.log(true&&false) //false
 
 // false e true
-[Substitua este texto por sua resposta]
+console.log(false&&true) //false
 
 // false e false 
-[Substitua este texto por sua resposta]
+console.log(false&&false) //false
 
 //!false e true
-[Substitua este texto por sua resposta]
+console.log(!false&&true) //true
 
 // !true e false 
-[Substitua este texto por sua resposta]
+console.log(!true&&false) //false
 
 // true ou true
-[Substitua este texto por sua resposta]
+console.log(true||true) //true
 
 // true ou false 
-[Substitua este texto por sua resposta]
+console.log(true||false) //true
 
 // true ou false ou true
-[Substitua este texto por sua resposta]
+console.log(true||false||true) //true
 
 // !true ou false
-[Substitua este texto por sua resposta]
+console.log(!true||false) //false
 
 // !(true ou false) e true
-[Substitua este texto por sua resposta]
+console.log(!(true||false)&&true) //false
 
 // true ou !(false e true)
-[Substitua este texto por sua resposta]
+console.log(true||!(false&&true)) //true
 
 //Deu nó? Vai beber uma água e continue depois
