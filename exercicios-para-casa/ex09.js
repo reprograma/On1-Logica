@@ -8,3 +8,26 @@
 // }
 
 // PS.Não frita com esse exercício...vamos falar sobre isso na próxima semana
+
+jogarParOuImpar()
+
+function jogarParOuImpar() {
+    let parImparUsuaria = prompt('Escolha par ou impar (P/I)');
+    let numeroUsuaria = parseInt(prompt('Digite um numero inteiro'));
+
+
+    let numeroPC = Math.round(Math.random() * 10); 
+    console.log(Math.round(Math.random() * 10))
+    let soma = numeroUsuaria + numeroPC
+
+    if (parImparUsuaria == 'P' && soma % 2 == 0) {
+        console.log('Você ganhou!')
+    } else if (parImparUsuaria == 'I' && soma % 2 == 1) {
+        console.log('Você ganhou!')
+    } else {
+        console.log('Você perdeu')
+    }
+
+}
+
+//no console tem que passar o nome da function pra ela começar a rodar, senão ela não entende
