@@ -13,3 +13,19 @@
 
 // [DESAFIO - NÃO OBRIGATÓRIO] 
 // Se você achou fácil, tente fazer uma versão que mostre o motivo pelo qual a pessoa ainda não pode se aposentar ;)
+
+var sexo = prompt('Informe seu sexo: H ou M?')
+var idade = parseInt(prompt('Qual sua idade? - Apenas número'))
+var tempoContribuicao = parseInt(prompt('Quantos anos de contribuição? - Apenas número'))
+
+  if (((sexo == 'M' || 'm' && idade >= 62) || (sexo == 'H' || 'h' && idade >= 65)) && tempoContribuicao >= 20){ 
+    console.log('Você já pode se aposentar!')} 
+  else if (((sexo == 'M' || 'm' && idade < 62) || (sexo == 'H' || 'h' && idade < 65)) && tempoContribuicao < 20) { 
+    console.log('Você ainda não pode se aposentar porque não atingiu a idade mínima e nem o tempo mínimo de contribuição!')}
+  else if (((sexo == 'M' || 'm' && idade >= 62) || (sexo == 'H' || 'h' && idade >= 65)) && tempoContribuicao < 20) { 
+    console.log('Você ainda não pode se aposentar porque não atingiu o tempo mínimo de contribuição!')}
+  else if ((sexo == 'M' || 'm' && idade < 62) || (sexo == 'H' || 'h' && idade < 65)) { 
+    console.log('Você ainda não pode se aposentar porque não atingiu a idade mínima!')}
+  else {
+    console.log('Confira os dados informados!')
+  }

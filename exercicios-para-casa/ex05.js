@@ -6,4 +6,19 @@
 // Dicas: 
 //  - Use a função Math.random() para gerar um número inteiro aleatório
 //  - Use o prompt() para coletar o número informado pelo usuário
-[Substitua este texto por sua resposta]
+
+var numeroComputador = Math.floor(Math.random() * Math.floor(5))
+
+var numeroUsuario = parseInt(prompt('Escolha par ou ímpar e informe um número de 0 a 5 para jogar com o computador'))
+
+var soma = (numeroComputador + numeroUsuario)
+console.log(soma)
+
+
+if (soma%2 == 0){
+        console.log(`Quem escolheu par ganhou! O computador escolheu o número ${numeroComputador} e você ${numeroUsuario}!`)
+    }else if (soma%2 == 1)  {
+        console.log(`Quem escolheu ímpar ganhou! O computador escolheu o número ${numeroComputador} e você ${numeroUsuario}!`)
+    }else {
+        console.log('Começa de novo! Não entendi o que tu digitou!')
+    }
