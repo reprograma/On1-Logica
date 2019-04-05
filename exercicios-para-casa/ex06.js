@@ -9,7 +9,19 @@
 // - Se for homem(H) a pessoa deve ter tempo de contribuição maior ou igual a 20 anos e idade maior ou igual a 65 anos
 // - Se a pessoa atender aos parâmetros mostre a mensagem 'Você já pode se aposentar'
 // - Se a pessoa não atender aos parâmetros mostre a mensagem 'Você ainda não pode se aposentar'
-[Substitua este texto por sua resposta]
+
+let sexo = prompt('Informe o sexo (H/M)');
+let tempoContribuição = prompt('Informe o tempo de contribuição em anos, somente números');
+let idade = prompt('Informe a idade');
+if(sexo == 'M'){
+    if(tempoContribuição >= 20){
+        if(idade == 62){
+            alert('Você pode se aposentar! Aproveita, mulher!')
+    }else{
+        alert('Você ainda não pode aposentar! :((')
+    }
+}
 
 // [DESAFIO - NÃO OBRIGATÓRIO] 
 // Se você achou fácil, tente fazer uma versão que mostre o motivo pelo qual a pessoa ainda não pode se aposentar ;)
+// Hoje não :(((

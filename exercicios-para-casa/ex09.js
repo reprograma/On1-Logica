@@ -8,3 +8,11 @@
 // }
 
 // PS.Não frita com esse exercício...vamos falar sobre isso na próxima semana
+
+// EITA JULIANA, SEGURA ESSE FORNINHO!!!
+
+
+function aliceDiferenteAlice(){
+    return ('alice' != 'Alice')
+}
+
