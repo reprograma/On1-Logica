@@ -12,52 +12,62 @@
 // Tá com dúvidas sobre como responder ao exercício? Leia o arquivo _Intrucoes.md
 
 // Crie/declare uma variável para guardar o nome do curso que você está fazendo na reprograma (sem valor).
-[Substitua este texto por sua resposta]
+var x;
 
 // Mostre o valor atual de sua variável no console 
-[Substitua este texto por sua resposta]
+console.log (typeof x); // mostra undefined
 
 // Atribua um valor à variável que você acabou de criar
-[Substitua este texto por sua resposta]
+x = 10;
 
 // Agora mostre novamente o valor atual de sua variável no console 
-[Substitua este texto por sua resposta]
+console.log (x); // mostra 10
 
 // Crie/declare uma variável para guardar uma nota de 1 a 10 (sem valor).
-[Substitua este texto por sua resposta]
+var nota;
 
 // Nesta variável atribua o valor da nota que você daria (hoje) para os seus conhecimentos de lógica (seja realista sem ser cruel com você mesma, lembre que você está começando)
-[Substitua este texto por sua resposta]
+nota = 6;
 
 // Crie/declare uma nova variável chamada 'soma' e atribua o resultado da soma de dois valores nesta variável (tente fazer tudo em uma linha) 
-[Substitua este texto por sua resposta]
+var soma = 3 + 3; // console.log volta 6
 
 // Incremente (some mais 1) à sua variável 'soma' usando 3 formas diferentes (dica: pesquise operadores unários) 
-[Substitua este texto por sua resposta]
+soma= soma+=1; 
+soma= soma+1;
+soma = soma++;
+// testei todos em console.log
+
 
 // Crie/declare uma variável 'multiplicacao' que multiplica a sua variável 'soma' por um valor qualquer
-[Substitua este texto por sua resposta]
+var mult = soma * 10; // testado em console.log
 
 // Mostre o valor das variáveis 'soma' e 'multiplicacao' usando três formas diferentes 
-[Substitua este texto por sua resposta]
+console.log (mult, soma); 
+alert("Esta é a variável mult " + mult + " Esta é a variável soma " + soma); 
+document.write("Esta é a variável mult " + mult + " Esta é a variável soma " + soma);
+// todos testados em console.log
 
 // Crie/declare uma variável chamada 'queroSerDesenvolvedora' e atribua um valor booleano à ela (...tô torcendo pra ser true..rsrsrsr)
-[Substitua este texto por sua resposta]
+var queroSerDesenvolvedora = true;
 
 // Crie/Declare uma variável chamada 'sanduba' do tipo array e acrescente valores correspondentes àos ingretientes da sua receita preferida. (Nós vimos array correndo então vou dar uma dica aqui: var sanduba = ['pao', 'ovo', 'queijo'] )
-[Substitua este texto por sua resposta]
+var sanduba = ["pao", "hamburguer", "queijo", "bacon", "ovo", "alface", "tomate", "cebola", "maionese"];
 
 // Moste a variável 'sanduba' no console
-[Substitua este texto por sua resposta]
+console.log(sanduba); // testado em console.log voltando 9 itens.
 
 // Mostre o primeiro igrediente de 'sanduba' (desafio pra você pesquisar)
-[Substitua este texto por sua resposta]
+console.log(sanduba[0]); // voltou "pao"
 
 // Acrescente um ingrediente ao seu 'sanduba' (desafio pra você pesquisar)
-[Substitua este texto por sua resposta]
+sanduba.push("mostarda");// em console.log(sanduba) mostra a inclusao do item e numero total final de 10 itens.
 
 // Substitua um ingrediente do seu 'sanduba' (desafio pra você pesquisar...sempre tento trocar a ervilha, quando tem)
-[Substitua este texto por sua resposta]
+var removed = sanduba.splice(4,1,"manjericao");
+//removi o ovo na posicao 5 e substitui por manjericao. Tentei dar um sanduba.replace mas não deu certo.
 
 // Escolha 3 variáveis que você criou e mostre o seus respectivos tipos (lembre que tem um comando pra isso)
-[Substitua este texto por sua resposta]
+var soma = number;
+var queroSerDesenvolvedora = Boolean;
+var sanduba = Array; //typeof volta Object.

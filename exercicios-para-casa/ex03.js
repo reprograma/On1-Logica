@@ -10,55 +10,85 @@
 //Tranforme as frases abaixo em operações, rode no seu console e acrescente a resposta que foi obtida 
 
 // 5 é maior que 2
-[Substitua este texto por sua resposta]
+console.log(5>2); // volta true
 
 // 7 é maior ou igual a 8
-[Substitua este texto por sua resposta]
+var y = 7;
+if(y>=8){
+    alert("real oficial S2");
+}else{
+    alert("false");
+} // alert volta "real oficial S2"
+
 
 // 5 é menor que 18 dividido por 3
-[Substitua este texto por sua resposta]
+var i = 5;
+if(i < 18/3){
+    alert("real oficial S2");
+}else{
+    alert("false");
+} // alert volta "real oficial S2"
+
 
 // Nove é menor ou igual a 3 vezes 3
-[Substitua este texto por sua resposta]
+var a = 9;
+var b = 3*3;
+var c = a <= b; // console.log em c volta true
+
 
 // 5+2 é igual a 11-4 
-[Substitua este texto por sua resposta]
+var b = 5 + 2;
+var c = 11 - 4;
+var d = b == c; // console.log em d volta true
+
 
 // undefined é igual a null
-[Substitua este texto por sua resposta]
+console.log(null == undefined); // volta true
+console.log(null === undefined); // estritamente volta false
+
 
 // '2'(string) é igual a 2
-[Substitua este texto por sua resposta] 
+var d = 2;
+var e = "2";
+if(d == e){
+    alert("Oi! nós somos iguais :)!");
+}else {
+    alert ("false");
+}
+
 
 // '2'(string) é estritamente igual a 2
-[Substitua este texto por sua resposta]
+console.log("2" === 2); // volta false
+
 
 // 0 é igual a -0
-[Substitua este texto por sua resposta]
+console.log(0 == -0); // volta true
+
 
 // 'banana' é maior que 'Banana'
-[Substitua este texto por sua resposta]
+alert("banana" > "Banana") // volta true
+
 
 // 'alice' é menor que 'beatriz'
-[Substitua este texto por sua resposta]
+console.log("alice" < "beatriz") // volta true
 
-// 'alice' é menor que 'beatriz'
-[Substitua este texto por sua resposta]
+// 'alice' é *maior* que 'beatriz'
+console.log("alice" > "beatriz") // volta false
 
 // 'alice' é diferente de 'Alice'
-[Substitua este texto por sua resposta]
+console.log("alice" != "Alice") // volta true
 
 // '25' é estritamente diferente de 25
-[Substitua este texto por sua resposta]
+console.log("25" !== 25) // volta true
 
 // true é igual a 'true'
-[Substitua este texto por sua resposta]
+console.log("true" == true) // volta false
 
 // false é diferente de 0
-[Substitua este texto por sua resposta]
+console.log(false != 0) // volta false
 
 // Não true é igual é false
-[Substitua este texto por sua resposta]
+console.log(!true == false) // volta true
 
 // !0 é igual a !1
-[Substitua este texto por sua resposta]
+console.log(!0 == 1) // volta true

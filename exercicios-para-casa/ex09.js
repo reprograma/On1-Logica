@@ -8,3 +8,32 @@
 // }
 
 // PS.Não frita com esse exercício...vamos falar sobre isso na próxima semana
+
+var y = 0;
+var x = "0";
+
+function saoIguais(){
+    return x == y;
+}
+
+saoIguais() //retorna true
+
+
+var a = "alice";
+var b = "beatriz";
+
+function comparacao(){
+    return a < b;
+}
+
+comparacao(); //retorna true
+
+
+var i = false;
+var z = 0;
+
+function saoDiferentes(){
+    return i != 0;
+}
+
+saoDiferentes(); //retorna false
