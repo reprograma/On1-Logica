@@ -6,4 +6,39 @@
 // Dicas: 
 //  - Use a função Math.random() para gerar um número inteiro aleatório
 //  - Use o prompt() para coletar o número informado pelo usuário
-[Substitua este texto por sua resposta]
+
+//Usuário escolhe par ou impar
+var parImpar = prompt('Digite P se quiser escolher "PAR" ou I se quiser escolher "IMPAR"');
+console.log (parImpar);
+//Se o usuário digitar certo, vai executar o algoritmo
+if(parImpar == 'P' || parImpar == 'I'){
+	console.log('okey!!!!');
+	//Usuário escolhe um número de 1 a 5
+	var nUsuario = prompt('Digite um número de 1 a 5');
+	console.log (nUsuario);
+	if (nUsuario>0 && nUsuario<6){
+		var nComputador = Math.floor(Math.random() * 6);
+		console.log (nComputador);
+		var soma = parseInt(nUsuario)+parseInt(nComputador);
+		console.log (soma);
+		if(soma%2 == 0){
+			console.log('Par');
+			var flag = 'P' ;
+		} else{
+			console.log('Impar');
+			var flag = 'I';
+		}
+		if(parImpar == flag){
+			window.alert('Você ganhou! :D')		
+		}else{
+			window.alert('Você perdeu! :(')	
+		}
+	}else{
+		window.alert('Numero fora do intervalo');
+	}
+}else{
+	window.alert('Você só pode digitar P ou I')
+}
+
+
+
