@@ -24,31 +24,32 @@
 [console.log('Front-End Online')]
 
 // Crie/declare uma variável para guardar uma nota de 1 a 10 (sem valor).
-[var nota1]
+[var nota]
 
 // Nesta variável atribua o valor da nota que você daria (hoje) para os seus conhecimentos de lógica (seja realista sem ser cruel com você mesma, lembre que você está começando)
-[nota1 = 7]
+[nota = 7]
 
 // Crie/declare uma nova variável chamada 'soma' e atribua o resultado da soma de dois valores nesta variável (tente fazer tudo em uma linha) 
-[var soma = ]
+[var soma = var soma = (parseInt (1)) + (parseInt (2)) ]
 
 // Incremente (some mais 1) à sua variável 'soma' usando 3 formas diferentes (dica: pesquise operadores unários) 
-[Substitua este texto por sua resposta]
+[soma ++]
 
 // Crie/declare uma variável 'multiplicacao' que multiplica a sua variável 'soma' por um valor qualquer
-[Substitua este texto por sua resposta]
+[var multiplicacao = soma*3]
 
 // Mostre o valor das variáveis 'soma' e 'multiplicacao' usando três formas diferentes 
-[Substitua este texto por sua resposta]
+[console.log (soma)
+console.log (multiplicacao)]
 
 // Crie/declare uma variável chamada 'queroSerDesenvolvedora' e atribua um valor booleano à ela (...tô torcendo pra ser true..rsrsrsr)
-[Substitua este texto por sua resposta]
+[var queroSerDesenvolvedora = true]
 
 // Crie/Declare uma variável chamada 'sanduba' do tipo array e acrescente valores correspondentes àos ingretientes da sua receita preferida. (Nós vimos array correndo então vou dar uma dica aqui: var sanduba = ['pao', 'ovo', 'queijo'] )
-[Substitua este texto por sua resposta]
+[var sanduba = ['bacon', 'pao australiano', 'onion ring', 'maionese']]
 
 // Moste a variável 'sanduba' no console
-[Substitua este texto por sua resposta]
+[console.log (sanduba)]
 
 // Mostre o primeiro igrediente de 'sanduba' (desafio pra você pesquisar)
 [Substitua este texto por sua resposta]
