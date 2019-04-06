@@ -6,4 +6,3 @@
 // Dicas: 
 //  - Use a função Math.random() para gerar um número inteiro aleatório
 //  - Use o prompt() para coletar o número informado pelo usuário
-[Substitua este texto por sua resposta]

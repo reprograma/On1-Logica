@@ -11,10 +11,10 @@
 
 
 // true e true 
-[Substitua este texto por sua resposta]
+console.log(8>4 && 5>2);
 
 // true e false 
-[Substitua este texto por sua resposta]
+console.log(10>1 && 5>10);
 
 // false e true
 [Substitua este texto por sua resposta]
