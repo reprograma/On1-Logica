@@ -13,3 +13,4 @@ prompt("Escreva seu nome")
 
 //SAÍDA
 console.log(prompt("Escreva seu nome"), "bem vinda à aula de lógica!")
+
