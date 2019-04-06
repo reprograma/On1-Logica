@@ -7,7 +7,7 @@
 //Acho que entendi todas as linhas!
 
 // Você faria alguma coisa diferente no código ?
-//Não! Alterei o código original pois ele organizava os números em ordem decrescente.
+//Não! Só alterei o código original pois ele organizava os números em ordem decrescente.
 
 // Explique em linhas gerais como o algoritmo funciona
 //Comentei o funcionamento, com o auxílio de alguns textos, no código mesmo.
