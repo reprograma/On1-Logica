@@ -28,7 +28,7 @@ numeroMagico = 30]
 [var magica = abra + cadabra]
 
 //Divida o 'numeroMagico' por 'mágica'
-[numeroMagico / magica]
+[numeroMagico/magica]
 
 // Moste no console a frase "O número mágico que foi pensado inicialmento é X" substituindo X por 'numeroMagico/magica' (Isso mesmo, coloque uma operação dentro do console.log()...opa olha o spoiler)
 [Substitua este texto por sua resposta]

@@ -40,7 +40,7 @@
 ['banana' <= 'Banana']
 
 // 'alice' é menor que 'beatriz'
-['alice' <= 'Banana]
+['alice' <= 'Banana']
 
 // 'alice' é menor que 'beatriz'
 ['alice' < 'beatriz']

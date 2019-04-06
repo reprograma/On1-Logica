@@ -1,13 +1,21 @@
 // Estrutura for
 
 // Faça um algoritmo que mostre os números de 0 até 100 
-[Substitua este texto por sua resposta]
+[let inicio = 0
+let fim = 100
+passos = 1
+
+]
 
 // Agora faça uma versão que conta de 0 até 100 de 5 em 5 números
-[Substitua este texto por sua resposta]
+[let inicio = 0
+  let fim = 100
+  passos = 5]
 
 // Faça um algoritmo que conte de 60 até 0 de trás para frente
-[Substitua este texto por sua resposta]
+[let inicio = 60
+  let fim = 0
+  passos = 1]
 
 
 // [DESAFIO - NÃO OBRIGATÓRIO] 
