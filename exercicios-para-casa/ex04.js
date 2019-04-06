@@ -11,39 +11,39 @@
 
 
 // true e true 
-[Substitua este texto por sua resposta]
+['true' && 'true']
 
 // true e false 
-[Substitua este texto por sua resposta]
+['true' && 'false']
 
 // false e true
-[Substitua este texto por sua resposta]
+['false' && 'true']
 
 // false e false 
-[Substitua este texto por sua resposta]
+['false' && 'false']
 
 //!false e true
-[Substitua este texto por sua resposta]
+['!false' && 'true']
 
 // !true e false 
-[Substitua este texto por sua resposta]
+['!true' && 'false']
 
 // true ou true
-[Substitua este texto por sua resposta]
+[true || true]
 
 // true ou false 
-[Substitua este texto por sua resposta]
+[true || false]
 
 // true ou false ou true
-[Substitua este texto por sua resposta]
+[true || false || true]
 
 // !true ou false
-[Substitua este texto por sua resposta]
+[!true || false]
 
 // !(true ou false) e true
-[Substitua este texto por sua resposta]
+[!(true || false) && 'true']
 
 // true ou !(false e true)
-[Substitua este texto por sua resposta]
+[true || (false && true)]
 
 //Deu nó? Vai beber uma água e continue depois
