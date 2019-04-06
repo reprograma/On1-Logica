@@ -7,4 +7,15 @@
 //    return 2+5
 // }
 
+function contagem() {
+
+    for (let i = 1; i <= 100; i++) {
+		console.log(i)
+    }
+}
+
 // PS.Não frita com esse exercício...vamos falar sobre isso na próxima semana
+
+
+
+// Profe, deu confusão mesmo... tentei fazer com a contagem, mas com os outros ficou mais difícil.
