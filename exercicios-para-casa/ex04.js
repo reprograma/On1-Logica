@@ -11,39 +11,90 @@
 
 
 // true e true 
-[Substitua este texto por sua resposta]
+var a = true;
+var b = true;
+var condicao1 = (a == b);
+console.log(condicao1);
+true
 
 // true e false 
-[Substitua este texto por sua resposta]
+var a = true;
+var b = false;
+var condicao1 = (a == b);
+console.log(condicao1);
+false
 
 // false e true
-[Substitua este texto por sua resposta]
+var a = false;
+var b = true;
+var condicao1 = (a == b);
+console.log(condicao1);
+false
 
 // false e false 
-[Substitua este texto por sua resposta]
+var a = false;
+var b = false;
+var condicao1 = (a == b);
+console.log(condicao1);
+true
 
 //!false e true
-[Substitua este texto por sua resposta]
+var a = !false;
+var b = true;
+var condicao1 = (a == b);
+console.log(condicao1);
+true
+
 
 // !true e false 
-[Substitua este texto por sua resposta]
+var a = !true;
+var b = false;
+var condicao1 = (a == b);
+console.log(condicao1);
+true
 
 // true ou true
-[Substitua este texto por sua resposta]
+var a = true;
+var b = true;
+var condicao1 = (a || b);
+console.log(condicao1);
+true
 
 // true ou false 
-[Substitua este texto por sua resposta]
+var a = true;
+var b = false;
+var condicao1 = (a || b);
+console.log(condicao1);
+true
 
 // true ou false ou true
-[Substitua este texto por sua resposta]
+var a = true;
+var b = false;
+var condicao1 = (a || b || a);
+console.log(condicao1);
+true
 
 // !true ou false
-[Substitua este texto por sua resposta]
+var a = !true;
+var b = false;
+var condicao1 = (a == b);
+console.log(condicao1);
+false
 
 // !(true ou false) e true
-[Substitua este texto por sua resposta]
+var a = !(true || false);
+var b = true;
+var condicao1 = (a && b);
+console.log(condicao1);
+false
 
 // true ou !(false e true)
-[Substitua este texto por sua resposta]
+var a = true
+var b = !(false && true);
+var condicao1 = (a || b);
+console.log(condicao1);
+true
+
+
 
 //Deu nó? Vai beber uma água e continue depois
