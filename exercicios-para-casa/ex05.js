@@ -5,5 +5,16 @@
 
 // Dicas: 
 //  - Use a função Math.random() para gerar um número inteiro aleatório
-//  - Use o prompt() para coletar o número informado pelo usuário
-[Substitua este texto por sua resposta]
+//  - Use o prompt() para covarar o número informado pelo usuário
+
+var parOuImparEscolha = prompt('Escolha entre par ou ímpar (P/I):');
+var numeroUsario = parseInt(prompt('Digite um número inteiro'));
+var numeroPC = Math.round(Math.random());
+var soma = numeroUsario + numeroPC;
+if (parOuImparEscolha =='P' && soma%2 == 0){
+    console.log('Você ganhou!');
+}else if (parOuImparEscolha =='I' && soma%2 == 1){
+    console.log('Você ganhou!');
+}else{
+    console.log('Você perdeu!')
+}

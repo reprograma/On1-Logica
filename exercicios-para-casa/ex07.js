@@ -1,13 +1,28 @@
 // Estrutura for
 
 // Faça um algoritmo que mostre os números de 0 até 100 
-[Substitua este texto por sua resposta]
+var inicio = 0;
+var final = 100;
+
+for (i = inicio; i <= final; i++){
+    console.log(i);
+}
 
 // Agora faça uma versão que conta de 0 até 100 de 5 em 5 números
-[Substitua este texto por sua resposta]
+var inicio = 0;
+var final = 100;
+
+for (i = inicio; i <= final; i+=5){
+    console.log(i);
+}
 
 // Faça um algoritmo que conte de 60 até 0 de trás para frente
-[Substitua este texto por sua resposta]
+var inicio = 60;
+var final = 0;
+
+for (i = inicio; i >= final; i--){
+    console.log(i);
+}
 
 
 // [DESAFIO - NÃO OBRIGATÓRIO] 
@@ -20,4 +35,11 @@
 // ****
 // *****
 // Dica: O operador + é só pra somar ?
-[Substitua este texto por sua resposta]
+
+var numeroEstrelas = parseInt(prompt('Informe o número de estrelas:'));
+var estrelas = '';
+
+for(i=1; i <= numeroEstrelas; i++){
+    estrelas += '*';
+    console.log(estrelas)
+}

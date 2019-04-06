@@ -11,39 +11,76 @@
 
 
 // true e true 
-[Substitua este texto por sua resposta]
+var cond1 = true;
+var cond2 = true;
+console.log(cond1 && cond2)
+true
 
 // true e false 
-[Substitua este texto por sua resposta]
+var cond1 = true;
+var cond2 = false;
+console.log(cond1 && cond2)
+false
 
 // false e true
-[Substitua este texto por sua resposta]
+var cond1 = false;
+var cond2 = true;
+console.log(cond1 && cond2)
+false
 
 // false e false 
-[Substitua este texto por sua resposta]
+var cond1 = false;
+var cond2 = false;
+console.log(cond1 && cond2)
+false
 
 //!false e true
-[Substitua este texto por sua resposta]
+var cond1 = !false;
+var cond2 = true;
+console.log(cond1 && cond2)
+true
 
 // !true e false 
-[Substitua este texto por sua resposta]
+var cond1 = !true;
+var cond2 = false;
+console.log(cond1 && cond2)
+false
 
 // true ou true
-[Substitua este texto por sua resposta]
+var cond1 = true;
+var cond2 = true;
+console.log(cond1 || cond2)
+true
 
 // true ou false 
-[Substitua este texto por sua resposta]
+var cond1 = true;
+var cond2 = false;
+console.log(cond1 || cond2)
+true
 
 // true ou false ou true
-[Substitua este texto por sua resposta]
+var cond1 = true;
+var cond2 = false;
+var cond3 = true;
+console.log(cond1 || cond2 || cond3)
+true
 
 // !true ou false
-[Substitua este texto por sua resposta]
+var cond1 = true;
+var cond2 = !false;
+console.log(cond1 || cond2)
+true
 
 // !(true ou false) e true
-[Substitua este texto por sua resposta]
+var cond1 = true;
+var cond2 = false;
+console.log(!(cond1 || cond2) && cond1)
+false
 
 // true ou !(false e true)
-[Substitua este texto por sua resposta]
+var cond1 = true;
+var cond2 = false;
+console.log(cond1 || !(cond2 && cond1))
+true
 
 //Deu nó? Vai beber uma água e continue depois
