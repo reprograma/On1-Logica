@@ -1,3 +1,8 @@
+Este é um repositório de conteúdo e atividades do curso de Desenvolvimento Front-End da {Reprograma}
+Semana 4- Lógica de Programação com Javascript
+
+
+
 # Lógica + JS 
 ## Reprograma Online T1 
 Aula 30/03/2019 |  9h às 17h
